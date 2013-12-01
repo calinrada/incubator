@@ -1,5 +1,5 @@
 {
-    "name": "phalcon/incubator",
+    "name": "calinrada/incubator",
     "type": "library",
     "description": "Adapters, prototypes or functionality that can be potentially incorporated to the C-framework.",
     "keywords": ["framework", "phalcon"],
@@ -12,8 +12,7 @@
         }
     ],
     "require": {
-        "php": ">=5.3.6",
-        "ext-phalcon": "1.2.4"
+        "php": ">=5.3.6"
     },
     "autoload": {
         "psr-0" : {
