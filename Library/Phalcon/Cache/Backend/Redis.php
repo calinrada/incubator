@@ -161,4 +161,19 @@ class Redis extends Backend implements BackendInterface
 		return $options['redis']->exists($keyName);
 	}
 
+	public function increment($key_name = NULL, $value = NULL)
+	{
+
+	}
+
+	public function decrement($key_name = NULL, $value = NULL)
+	{
+
+	}
+
+	public function flush() 
+	{
+
+	}
+
 }
